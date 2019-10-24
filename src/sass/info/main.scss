@@ -184,21 +184,33 @@ nav {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     transition: 3s;
+        animation: rotate_circle 50s linear infinite;
+    
   }
   &:hover {
     transform: scale(.9);
     &:before {
-      transform: translateX(-50%) translateY(-50%) rotate(360deg);
+      animation: rotate_circle 4s linear infinite;
     }
   }
   svg {
     width: 60px;
   }
 }
+    @keyframes rotate_circle {
+      from {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+      }
+      to {
+        transform: translateX(-50%) translateY(-50%) rotate(360deg);
+      }
+    }
 
 .header-img {
   img {
         margin-left: -190px;
+    max-width: 794px;
+    
   }
 }
 
@@ -379,8 +391,8 @@ margin-bottom: 75px;
     font-family: "MADE Evolve Sans";
     font-size: 19px;
     font-weight: 400;
-    padding: 19px 33px;
-    margin-right: 22px;
+    padding: 19px ;
+//    margin-right: 22px;
   }
   ::placeholder {
     color: #94acb1;
@@ -394,7 +406,7 @@ margin-bottom: 75px;
       color: #94acb1;
     background-image: url('../svg/arrow_drop_down.svg');
     background-repeat:  no-repeat;
-    background-position: 89% center;
+    background-position: 94% center;
   }
   .order-btn {
     padding-left: 50px;
@@ -581,7 +593,7 @@ line-height: 1.58;
 }
 
 .faq {
-  padding-top: 4vw;
+  padding-top: 100px;
   padding-bottom: 115px;
   background: url('../images/3efd.png') no-repeat center bottom;
 }
@@ -687,7 +699,7 @@ line-height: 1.58;
       font-weight: 700;
       font-size: 19px;
       line-height: 1.58;
-      margin: 0 auto;
+      margin: 0 auto ;
     }
     a {
       max-width: 300px;
@@ -698,9 +710,10 @@ line-height: 1.58;
       line-height: 1.58;
       text-decoration: underline;
       display: block;
-      margin-bottom: 25px;
+      margin-top: 25px;
       &:last-child {
         margin-bottom: 0;
+        margin-top: 0;
       }
       svg {
         width: 12px;
@@ -718,6 +731,10 @@ line-height: 1.58;
 .location-item {
   cursor: pointer;
   margin-bottom: 30px;
+  transition: .3s;
+  &:hover {
+    transform: scale(1.1);
+  }
   img {
     float: left;
     width: 40px;
@@ -739,6 +756,8 @@ line-height: 1.58;
     }
     p {
       margin-bottom: 0;
+    line-height: 1.58;
+      
     }
     a {
       display: block;
@@ -815,4 +834,11 @@ line-height: 1.58;
 
 .xs-block {
   display: none;
+}
+
+.label {
+  position: relative;
+  margin-right: 22px;
+  display: inline-block;
+  vertical-align: middle;
 }

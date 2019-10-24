@@ -1011,7 +1011,12 @@ background-color: #ffffff;
   }
   .form input, .form select {
     width: 100%;
-    margin: 0 0 16px;
+    margin: 0 0;
+  }
+  .label {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 16px;
   }
   &.large {
     padding: 5vw;
@@ -1019,6 +1024,37 @@ background-color: #ffffff;
     text-align: left;
   }
 }
+
+.allert {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  &:hover {
+    p {
+      display: block;
+      z-index: 5;
+      
+    }
+  }
+  p{
+    display: none;
+    background: #fff;
+    border-radius: 30px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    width: 215px;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 1;
+  }
+  svg {
+    width: 15px;
+  }
+}
+
 @import 'info/bootstrap';
 @import 'info/main';
 

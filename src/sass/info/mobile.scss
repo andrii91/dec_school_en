@@ -193,8 +193,17 @@
   }
 
   .phone {
+    
     a {
       display: none;
+      &.number {
+        display: block;
+        position: absolute;
+        top: 18px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 4vw;
+      }
     }
 
     img {
@@ -404,7 +413,14 @@
     font-weight: 400;
     padding: 19px 33px;
     margin-right: 0;
-    margin-bottom: 17px;
+    margin-bottom: 0;
+  }
+  .form {
+    .label {
+      display: block;
+      margin-bottom: 17px;
+      margin-right: 0;
+    }
   }
 
   .info {
@@ -577,6 +593,7 @@
 
   .selection-img {
     margin-bottom: 55px;
+    margin-top: 40px;
 
     img {
       width: 100%;
@@ -609,6 +626,9 @@
 
   #map {
     height: 100vh;
+    br {
+      display: block;
+    }
   }
 
   .footer {

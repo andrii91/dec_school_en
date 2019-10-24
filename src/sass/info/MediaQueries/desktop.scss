@@ -3,7 +3,10 @@
 @media #{$desktop} {
     @import '../desktop';
     & {
-	  
+	  .header-img img {
+    margin-left: -9.896vw;
+    width: 50.354vw;
+}
     }
 }
 
