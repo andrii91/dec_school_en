@@ -14,18 +14,29 @@
   <meta property="og:title" content="DEC School - мережа шкіл англійської мови в Києві ">
   <meta property="og:image" content="images/og_dec.png" />
   <title>DEC School - мережа шкіл англійської мови в Києві </title>
-  <link type="text/css" rel="stylesheet" href="css/app.css" />
+<!--  <link type="text/css" rel="stylesheet" href="css/app.css" />-->
   <link rel="shortcut icon" href="images/favicon.png">
+        <!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+  <script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+  <!-- Load CSS Start -->
+  <script>loadCSS( "css/app.css?ver=1.1.3", false, "all" );</script>
+  <!-- Load CSS End -->
+
+  <!-- Load CSS Compiled without JS -->
+  <noscript>
+    <link rel="stylesheet" href="css/app.css?ver=1.1.2">
+  </noscript>
 </head>
 
 <body>
   <nav>
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-xl-2">
-          <a href="index.html" class="logo"><img src="svg/logo_dec.svg" alt=""></a>
+        <div class="col-xl-2 order-1 col-6">
+          <a href="index.html" class="logo"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/logo_dec.svg" alt=""></a>
         </div>
-        <div class="col-xl-7">
+        <div class="col-xl-7 order-3">
           <ul class="menu">
             <li><a class="scroll" href="#why" class="scroll">Переваги</a></li>
             <li><a class="scroll" href="#about" class="scroll">Про навчання</a></li>
@@ -34,12 +45,22 @@
             <li><a class="scroll" href="#location" class="scroll">Локація</a></li>
           </ul>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 order-2 col-6">
+           <div id="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <div class="phone">
-            <img src="svg/call.svg" alt="">
+            <img  data-fancybox data-src="#call" src="svg/call.svg" alt="">
             <a class="number" href="tel:+30999872263">(099) 987-22-63</a>
             <a data-fancybox href="#call">Замовити дзвінок</a>
           </div>
+          
+          
         </div>
       </div>
     </div>
@@ -56,7 +77,7 @@
           <div class="row  align-items-center">
             <div class="col-xl-8"><a data-fancybox href="#reg" class="order-btn">Записатися на пробне заняття</a></div>
             <div class="col-xl-4">
-              <a href="#" class="video-btn" data-fancybox><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+              <a href="https://youtu.be/Iq-JPpC2_34" class="video-btn" data-fancybox><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
                   <circle cx="30" cy="30" r="30" fill="#fff" />
                   <path fill="#e55a2f" d="M33 30l-6-4v8z" /></svg></a>
             </div>
@@ -64,7 +85,7 @@
         </div>
         <div class="col-xl-5">
           <div class="header-img">
-            <img src="images/pic1.png" alt="">
+            <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/pic1.png" alt="">
           </div>
         </div>
       </div>
@@ -82,7 +103,7 @@
           <div class="col-xl-4">
             <div class="why-item">
               <div class="img">
-                <img src="svg/icon_1.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_1.svg" alt="">
               </div>
               <div class="title">40% вчителів - носії мови</div>
               <p>Сертифіковані <br>викладачі з США, Канади <br>та Британії</p>
@@ -91,7 +112,7 @@
           <div class="col-xl-4">
             <div class="why-item">
               <div class="img">
-                <img src="svg/icon_2.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_2.svg" alt="">
               </div>
               <div class="title">8 локацій у Києві</div>
               <p>Сучасні та затишні школи <br>в різних районах - можна обрати місце ближче до дому</p>
@@ -100,7 +121,7 @@
           <div class="col-xl-4">
             <div class="why-item">
               <div class="img">
-                <img src="svg/icon_3.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_3.svg" alt="">
               </div>
               <div class="title">Навчання в ігровій формі</div>
               <p>Діти більше залучаються у процес і краще засвоюють матеріал</p>
@@ -110,7 +131,7 @@
           <div class="col-xl-4">
             <div class="why-item">
               <div class="img">
-                <img src="svg/icon_4.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_4.svg" alt="">
               </div>
               <div class="title">Групи до 8 учнів</div>
               <p>Викладач <br>приділяє достатньо <br>часу кожному учню</p>
@@ -119,7 +140,7 @@
           <div class="col-xl-4">
             <div class="why-item">
               <div class="img">
-                <img src="svg/icon_5.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_5.svg" alt="">
               </div>
               <div class="title">Зручний графік</div>
               <p>2 або 3 заняття на тиждень легко поєднувати зі школою, спортом, хобі</p>
@@ -136,7 +157,7 @@
           <div class="col-xl-6">
             <div class="about-item row">
               <div class="col-xl-2 img">
-                <img src="svg/icon_6.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_6.svg" alt="">
               </div>
               <div class="col-xl-10">
                 <p><b>Авторські напрацювання експертів DEC School —</b><br> свої методисти, передові підходи, обмін досвідом з міжнародними школами.</p>
@@ -144,7 +165,7 @@
             </div>
             <div class="about-item row">
               <div class="col-xl-2 img">
-                <img src="svg/icon_7.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_7.svg" alt="">
               </div>
               <div class="col-xl-10">
                 <p><b>Усі викладачі з міжнародними сертифікатами</b><br> TEFL, CELTA і DELTA — це як «чорний пояс» <br>для педагога.</p>
@@ -152,17 +173,17 @@
             </div>
             <div class="about-item row">
               <div class="col-xl-2 img">
-                <img src="svg/icon_8.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_8.svg" alt="">
               </div>
               <div class="col-xl-10">
                 <p><b>Фокус на персональне тестування</b> — від визначення<br> рівня мови під час прийому у школу до зрізу знань, профорієнтації та підбору вузів для вступу.</p>
               </div>
             </div>
           </div>
-          <div class="col-xl-6 ml-auto">
+          <div class="col-xl-6 ml-auto xs-first">
             <div class="about-video">
-              <img src="svg/heart.svg" alt="">
-              <svg data-fancybox data-src="#" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 72.5 72.5" xml:space="preserve">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/heart.svg" alt="">
+              <svg data-fancybox data-src="https://youtu.be/Iq-JPpC2_34" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 72.5 72.5" xml:space="preserve">
                 <style>
                   .st0 {
                     fill: #fff
@@ -179,7 +200,7 @@
           <div class="col-xl-4">
             <div class="about-item_bottom">
               <div class="img">
-                <img src="svg/facts_1.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/facts_1.svg" alt="">
               </div>
               <p><b>років</b> закохуємо дітей <br>і дорослих в англійську мову</p>
             </div>
@@ -187,7 +208,7 @@
           <div class="col-xl-4">
             <div class="about-item_bottom">
               <div class="img">
-                <img src="svg/facts_2.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/facts_2.svg" alt="">
               </div>
               <p><b>дітей</b> навчаються у школі<br> більше 2 років</p>
             </div>
@@ -195,7 +216,7 @@
           <div class="col-xl-4">
             <div class="about-item_bottom">
               <div class="img">
-                <img src="svg/facts_3.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/facts_3.svg" alt="">
               </div>
               <p><b>дітей</b> навчаються в DEC<br> school щороку</p>
             </div>
@@ -204,7 +225,7 @@
         <div class="row">
           <div class="col-12">
             <div class="about-form">
-              <img src="svg/free_test.svg" alt="">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/free_test.svg" alt="">
               <form action="#" class="form" method="post">
                 <div class="title">Запишіться на безкоштовний тест</div>
                 <p>щоб визначити рівень володіння англійською мовою і пройти перше заняття</p>
@@ -214,12 +235,12 @@
                   <option value="" selected disabled>Локація</option>
                   <option value="ОБОЛОНЬ">ОБОЛОНЬ</option>
                   <option value="ОСОКОРКИ">ОСОКОРКИ</option>
-                  <option value="ПЕЧЕРСК">ПЕЧЕРСК</option>
-                  <option value="ГОЛОСЕЕВО">ГОЛОСЕЕВО</option>
-                  <option value="ЛУКЬЯНОВКА">ЛУКЬЯНОВКА</option>
-                  <option value="ПЕЧЕРСК">ПЕЧЕРСК</option>
+                  <option value="Печерськ">Печерськ</option>
+                  <option value="Голосієво">Голосієво</option>
+                  <option value="Лук'янівка">Лук'янівка</option>
+                  <option value="Печерськ">Печерськ</option>
                   <option value="ВДНХ">ВДНХ</option>
-                  <option value="ПЕЧЕРСК- DEC EDUCATION">ПЕЧЕРСК- DEC EDUCATION</option>
+                  <option value="Печерськ- DEC EDUCATION">Печерськ- DEC EDUCATION</option>
                 </select>
                 <button type="submit" class="order-btn">Записатися</button>
               </form>
@@ -233,14 +254,14 @@
         <div class="row align-items-center">
           <div class="col-xl-5">
             <div class="info-img">
-              <img src="images/girl.png" alt="">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/girl.png" alt="">
             </div>
           </div>
-          <div class="col-xl-6 ml-auto">
+          <div class="col-xl-6 ml-auto xs-first">
             <div class="h2-title">Використовуємо <br>інтегровану <br>програму:</div>
             <div class="row info-item">
               <div class="info-svg">
-                <img src="svg/numbers-01.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/numbers-01.svg" alt="">
               </div>
               <div class="col">
                 <p><b>українські викладачі</b> пояснюють граматику <br>і складні аспекти;</p>
@@ -248,7 +269,7 @@
             </div>
             <div class="row info-item">
               <div class="info-svg">
-                <img src="svg/numbers-02.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/numbers-02.svg" alt="">
               </div>
               <div class="col">
                 <p><b>носії мови</b> розвивають мовлення, вимову, <br>вчать виступати публічно;</p>
@@ -256,7 +277,7 @@
             </div>
             <div class="row info-item">
               <div class="info-svg">
-                <img src="svg/numbers-03.svg" alt="">
+                <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/numbers-03.svg" alt="">
               </div>
               <div class="col">
                 <p><b>є програми підготовки</b> до олімпіад, конкурсів, <br>іспитів IELTS, TOEFL, FCE, CAE, CPE.</p>
@@ -268,34 +289,34 @@
     </div>
     <div class="info_2">
       <div class="container">
+        <div class="h2-title">Робимо навчання <br>цікавим і ефективним:</div>
         <div class="row align-items-center">
           <div class="col-xl-7">
-            <div class="h2-title">Робимо навчання <br>цікавим і ефективним:</div>
             <div class="info_2-item row">
-              <div class="info_2-svg"><img src="svg/icon_9.svg" alt=""></div>
+              <div class="info_2-svg"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_9.svg" alt=""></div>
               <div class="col">
                 <p><b>ігрові елементи у навчанні</b> — діти отримують <br>DEC Coins за активність, міняють їх на нагороди <br>і бонуси;</p>
               </div>
             </div>
             <div class="info_2-item row">
-              <div class="info_2-svg"><img src="svg/icon_10.svg" alt=""></div>
+              <div class="info_2-svg"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_10.svg" alt=""></div>
               <div class="col">
                 <p><b>викладачі, які знаходять спільну мову з учнями</b> — живі бесіди, обговорення актуальних для дітей тем, новин зі сфери культури, музики, кіно;</p>
               </div>
             </div>
             <div class="info_2-item row">
-              <div class="info_2-svg"><img src="svg/icon_11.svg" alt=""></div>
+              <div class="info_2-svg"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_11.svg" alt=""></div>
               <div class="col">
                 <p><b>тематичні свята, квести та ігри:</b> Halloween, Saint Patrick's Day, New Year Party і т.д.</p>
               </div>
             </div>
           </div>
-          <div class="col-xl-5">
+          <div class="col-xl-5 xs-first">
             <ul class="info_2-img">
-              <li><img src="svg/coin_1.svg" alt=""></li>
-              <li><img src="svg/coin_2.svg" alt=""></li>
-              <li><img src="svg/coin_3.svg" alt=""></li>
-              <li><img src="svg/coin_4.svg" alt=""></li>
+              <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/coin_1.svg" alt=""></li>
+              <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/coin_2.svg" alt=""></li>
+              <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/coin_3.svg" alt=""></li>
+              <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/coin_4.svg" alt=""></li>
             </ul>
           </div>
         </div>
@@ -312,50 +333,50 @@
         <div class="row align-items-center">
           <div class="col-xl-7">
             <div class="report-item">
-              <img src="images/4trdf.png" alt="">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/4trdf.png" alt="">
               <div class="title">Батьки отримують звіт <br>з досягненнями дитини <br>кожен семестр.</div>
               <p>Головне — ви бачите прогрес не тільки в оцінках, але і в житті: у впевненості дитини за кордоном, побутовому спілкуванні, під час виступів на тематичних святах в школі.</p>
-              <a data-fancybox href="#reg" class="order-btn">Переглянути приклад звіту</a>
+              <a  href="javascript:;" id="screen" class="order-btn">Переглянути приклад звіту</a>
             </div>
           </div>
           <div class="col-xl-5">
             <div class="report-item_right row">
-              <div class="col-xl-3">
+              <div class="col-xl-3 col-3">
                 <div class="img">
-                  <img src="svg/icon_12.svg" alt="">
+                  <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_12.svg" alt="">
                 </div>
               </div>
-              <div class="col-xl-9">
+              <div class="col-xl-9 col-9">
                 <p>Підбір курсів англійської <br>за кордоном</p>
               </div>
             </div>
             <div class="report-item_right row">
-              <div class="col-xl-3">
+              <div class="col-xl-3 col-3">
                 <div class="img">
-                  <img src="svg/icon_13.svg" alt="">
+                  <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_13.svg" alt="">
                 </div>
               </div>
-              <div class="col-xl-9">
+              <div class="col-xl-9 col-9">
                 <p>Консультації з профорієнтації <br>для учнів від 14 років</p>
               </div>
             </div>
             <div class="report-item_right row">
-              <div class="col-xl-3">
+              <div class="col-xl-3 col-3">
                 <div class="img">
-                  <img src="svg/icon_14.svg" alt="">
+                  <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_14.svg" alt="">
                 </div>
               </div>
-              <div class="col-xl-9">
+              <div class="col-xl-9 col-9">
                 <p>Стратегія і супровід по<br> подальшій освіті — як обрати<br> вуз, куди краще поступати</p>
               </div>
             </div>
             <div class="report-item_right row">
-              <div class="col-xl-3">
+              <div class="col-xl-3 col-3">
                 <div class="img">
-                  <img src="svg/icon_15.svg" alt="">
+                  <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_15.svg" alt="">
                 </div>
               </div>
-              <div class="col-xl-9">
+              <div class="col-xl-9 col-9">
                 <p>Консультації та супровід від<br> DEC education під час вступу до<br> школи або вузу за кордоном</p>
               </div>
             </div>
@@ -370,7 +391,7 @@
             <div class="h2-title">Як проходить <br>відбір до школи </div>
             <div class="selection-item row align-items-center">
               <div class="col-xl-3">
-                <div class="img"><img src="svg/icon_16.svg" alt=""></div>
+                <div class="img"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_16.svg" alt=""></div>
               </div>
               <div class="col-xl-9">
                 <div class="title">Крок 1.</div>
@@ -379,7 +400,7 @@
             </div>
             <div class="selection-item row align-items-center">
               <div class="col-xl-3">
-                <div class="img"><img src="svg/icon_17.svg" alt=""></div>
+                <div class="img"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_17.svg" alt=""></div>
               </div>
               <div class="col-xl-9">
                 <div class="title">Крок 2.</div>
@@ -388,7 +409,7 @@
             </div>
             <div class="selection-item row align-items-center">
               <div class="col-xl-3">
-                <div class="img"><img src="svg/icon_18.svg" alt=""></div>
+                <div class="img"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_18.svg" alt=""></div>
               </div>
               <div class="col-xl-9">
                 <div class="title">Крок 3.</div>
@@ -397,7 +418,7 @@
             </div>
             <div class="selection-item row align-items-center">
               <div class="col-xl-3">
-                <div class="img"><img src="svg/icon_19.svg" alt=""></div>
+                <div class="img"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_19.svg" alt=""></div>
               </div>
               <div class="col-xl-9">
                 <div class="title">Крок 4.</div>
@@ -406,18 +427,21 @@
             </div>
             <div class="selection-item row align-items-center">
               <div class="col-xl-3">
-                <div class="img"><img src="svg/icon_20.svg" alt=""></div>
+                <div class="img"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/icon_20.svg" alt=""></div>
               </div>
               <div class="col-xl-9">
                 <div class="title">Крок 5.</div>
                 <p>Дитина починає навчання і отримує <br>Welcome Pack.</p>
               </div>
             </div>
-            <a data-fancybox href="#reg" class="order-btn">Записатися на пробне заняття</a>
+            <a data-fancybox href="#reg" class="order-btn xs-none">Записатися на пробне заняття</a>
           </div>
           <div class="col-xl-7">
             <div class="selection-img">
-              <img src="images/5thf.png" alt="">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/5thf.png" alt="">
+            </div>
+            <div class="text-center">
+            <a data-fancybox href="#reg" class="order-btn xs-block">Записатися на пробне заняття</a>
             </div>
           </div>
         </div>
@@ -460,74 +484,74 @@
         <div class="row">
           <div class="col-xl-3">
             <div class="location-item" data-lat="50.4998284" data-lng="30.5167872">
-              <img src="svg/metro_blue.svg" alt="">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/metro_blue.svg" alt="">
               <div class="text">
                 <div class="title">Оболонь</div>
-                <p>ул. Оболонская набережная, 19 <a href="tel:0674479982">067 447 99 82</a></p>
+                <p>вул. Оболонська набережна, 19 <a href="tel:0674479982">067 447 99 82</a></p>
               </div>
             </div>
           </div>
           <div class="col-xl-3">
             <div class="location-item" data-lat="50.3865081" data-lng="30.4601825">
-              <img src="svg/metro_blue.svg" alt="">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/metro_blue.svg" alt="">
               <div class="text">
                 <div class="title">ВДНХ</div>
-                <p>ул.Мейтуса, 5а <a href="tel:0674007935">067 400 79 35</a></p>
+                <p>ввул. Мейтуса, 5а <a href="tel:0674007935">067 400 79 35</a></p>
               </div>
             </div>
           </div>
           <div class="col-xl-3">
             <div class="location-item" data-lat="50.4079509" data-lng="30.6109881">
-              <img src="svg/metro_green.svg" alt="">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/metro_green.svg" alt="">
               <div class="text">
                 <div class="title">Осокорки</div>
-                <p>ул. Днепровская набережная, 19а <a href="tel:0672342860">067 234 28 60</a></p>
+                <p>вул. Дніпровська набережна, 19а <a href="tel:0672342860">067 234 28 60</a></p>
               </div>
             </div>
           </div>
           <div class="col-xl-3">
             <div class="location-item" data-lat="50.4566949" data-lng="30.4925751">
-              <img src="svg/metro_green.svg" alt="">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/metro_green.svg" alt="">
               <div class="text">
-                <div class="title">Лукьяновка</div>
-                <p>ул. Сечевых Стрельцов (Артема), 42 <a href="tel:0673279603">067 327 96 03</a></p>
+                <div class="title">Лук'янівка</div>
+                <p>вул. Січових Стрільців (Артема), 42 <a href="tel:0673279603">067 327 96 03</a></p>
               </div>
             </div>
           </div>
           <div class="col-xl-3">
             <div class="location-item" data-lat="50.3863894" data-lng="30.4686284">
-              <img src="svg/metro_blue.svg" alt="">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/metro_blue.svg" alt="">
               <div class="text">
-                <div class="title">Голосеево</div>
-                <p>ул. Ломоносова, 73в <br>(ЖК «Сонячна брама») <a href="tel:0673279601">067 327 96 01</a></p>
+                <div class="title">Голосієво</div>
+                <p>вул. Ломоносова, 73в <br>(ЖК «Сонячна брама») <a href="tel:0673279601">067 327 96 01</a></p>
               </div>
             </div>
           </div>
           <div class="col-xl-3">
             <div class="location-item" data-lat="50.423987" data-lng="30.5413113">
-              <img src="svg/metro_green.svg" alt="">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/metro_green.svg" alt="">
               <div class="text">
-                <div class="title">Печерск</div>
-                <p>DEC EDUCATION <br>бул. Л. Украинки, <br>23Б, 3 этаж <a href="tel:080030440033">0 (800) 304 400 33</a> <a href="tel:+380674668447">(067) 466 84 47</a></p>
+                <div class="title">Печерськ</div>
+                <p>DEC EDUCATION <br>бул. Л. Українки, <br>23Б, 3 поверх <a href="tel:080030440033">0 (800) 304 400 33</a> <a href="tel:+380674668447">(067) 466 84 47</a></p>
               </div>
             </div>
           </div>
           <div class="col-xl-3">
             <div class="location-item" data-lat="50.4152657" data-lng="30.5496016">
-              <img src="svg/metro_green.svg" alt="">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/metro_green.svg" alt="">
               <div class="text">
-                <div class="title">Печерск</div>
-                <p>ул. Профессора Подвысоцкого, 16 <a href="tel:0672401905">067 240 19 05</a></p>
+                <div class="title">Печерськ</div>
+                <p>вул. Професора Підвисоцького, 16 <a href="tel:0672401905">067 240 19 05</a></p>
               </div>
             </div>
           </div>
 
           <div class="col-xl-3">
             <div class="location-item" data-lat="50.4176577" data-lng="30.5259683">
-              <img src="svg/metro_green.svg" alt="">
+              <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/metro_green.svg" alt="">
               <div class="text">
-                <div class="title">Печерск</div>
-                <p>ул. Филатова, 2/1 <br>(ЖК «Французский квартал»)</p>
+                <div class="title">Печерськ</div>
+                <p>вул. Філатова, 2/1 <br>(ЖК «Французький квартал»)</p>
               </div>
             </div>
           </div>
@@ -541,7 +565,7 @@
       <div class="row align-items-center">
         <div class="col-xl-2">
           <div class="logo">
-            <img src="svg/logo_dec.svg" alt="">
+            <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/logo_dec.svg" alt="">
           </div>
         </div>
         <div class="col-xl-8">
@@ -582,12 +606,12 @@
         <option value="" selected disabled>Локація</option>
         <option value="ОБОЛОНЬ">ОБОЛОНЬ</option>
         <option value="ОСОКОРКИ">ОСОКОРКИ</option>
-        <option value="ПЕЧЕРСК">ПЕЧЕРСК</option>
-        <option value="ГОЛОСЕЕВО">ГОЛОСЕЕВО</option>
-        <option value="ЛУКЬЯНОВКА">ЛУКЬЯНОВКА</option>
-        <option value="ПЕЧЕРСК">ПЕЧЕРСК</option>
+        <option value="Печерськ">Печерськ</option>
+        <option value="Голосієво">Голосієво</option>
+        <option value="Лук'янівка">Лук'янівка</option>
+        <option value="Печерськ">Печерськ</option>
         <option value="ВДНХ">ВДНХ</option>
-        <option value="ПЕЧЕРСК- DEC EDUCATION">ПЕЧЕРСК- DEC EDUCATION</option>
+        <option value="Печерськ- DEC EDUCATION">Печерськ- DEC EDUCATION</option>
       </select>
       <button type="submit" class="order-btn">Передзвоніть мені</button>
     </form>
@@ -601,21 +625,21 @@
         <option value="" selected disabled>Локація</option>
         <option value="ОБОЛОНЬ">ОБОЛОНЬ</option>
         <option value="ОСОКОРКИ">ОСОКОРКИ</option>
-        <option value="ПЕЧЕРСК">ПЕЧЕРСК</option>
-        <option value="ГОЛОСЕЕВО">ГОЛОСЕЕВО</option>
-        <option value="ЛУКЬЯНОВКА">ЛУКЬЯНОВКА</option>
-        <option value="ПЕЧЕРСК">ПЕЧЕРСК</option>
+        <option value="Печерськ">Печерськ</option>
+        <option value="Голосієво">Голосієво</option>
+        <option value="Лук'янівка">Лук'янівка</option>
+        <option value="Печерськ">Печерськ</option>
         <option value="ВДНХ">ВДНХ</option>
-        <option value="ПЕЧЕРСК- DEC EDUCATION">ПЕЧЕРСК- DEC EDUCATION</option>
+        <option value="Печерськ- DEC EDUCATION">Печерськ- DEC EDUCATION</option>
       </select>
       <button type="submit" class="order-btn">Записатися</button>
     </form>
   </div>
 
-  <script defer src="js/vendor.js"></script>
+  <script  defer src="js/vendor.js"></script>
   <!--  <script async defer src="http://maps.google.com/maps/api/js?sensor=false"></script>-->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_GolbS95nQO7CseMy36FiLN4tsiYVtIQ"></script>
-  <script defer src="js/app.js"></script>
+  <script  defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_GolbS95nQO7CseMy36FiLN4tsiYVtIQ"></script>
+  <script  defer src="js/app.js"></script>
 </body>
 
 </html>
