@@ -161,14 +161,12 @@ $(document).ready(function () {
       {
         src: 'images/screen_1.jpg',
         opts: {
-          caption: 'First caption',
           thumb: 'images/screen_1.jpg'
         }
     },
       {
         src: 'images/screen_2.jpg',
         opts: {
-          caption: 'Second caption',
           thumb: 'images/screen_2.jpg'
         }
     }
@@ -202,7 +200,7 @@ $(document).ready(function () {
           var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
           if (!pattern.test($(this).val())) {
             $("input[name=email]").val('');
-            $(this).addClass('error').parents('.label').append('<div class="allert"><p>Будь ласка, заповніть поле</p>' + alertImage + '</div>');
+            $(this).addClass('error').parents('.label').append('<div class="allert">' + alertImage + '</div>');
             error = 1;
             $(":input.error:first").focus();
             return false;
@@ -211,13 +209,13 @@ $(document).ready(function () {
           var patterntel = /^()[- +()0-9]{9,18}/i;
           if (!patterntel.test($(this).val())) {
             $("input[name=phone]").val('');
-            $(this).addClass('error').parents('.label').append('<div class="allert"><p>Будь ласка, заповніть поле</p>' + alertImage + '</div>');
+            $(this).addClass('error').parents('.label').append('<div class="allert">' + alertImage + '</div>');
             error = 1;
             $(":input.error:first").focus();
             return false;
           }
         } else {
-          $(this).addClass('error').parents('.label').append('<div class="allert"><p>Будь ласка, заповніть поле</p>' + alertImage + '</div>');
+          $(this).addClass('error').parents('.label').append('<div class="allert">' + alertImage + '</div>');
           error = 1;
           $(":input.error:first").focus();
           return false;
