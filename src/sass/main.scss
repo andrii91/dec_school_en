@@ -565,10 +565,10 @@ screen and (max-height: 300px) {
 
 .modal {
  .mfp-close {
-  color: #fff;
+  color: transparent;
   width: 30px;
   height: 30px;
-  background: #e55a2f;
+  background:  0 0;
   border-radius: 50%;
   line-height: 1;
    margin: 0;
