@@ -253,9 +253,11 @@ button::-moz-focus-inner {
   opacity: 1;
 }
 
+/*
 .mfp-close:active {
   top: 1px;
 }
+*/
 
 .mfp-close-btn-in .mfp-close {
   color: #333;
@@ -574,9 +576,17 @@ screen and (max-height: 300px) {
     text-align: center;
     vertical-align: middle;
     font-size: 22px;
-   background: url('../svg/close.svg') no-repeat center;
+   &:before {
+     content: "";
+        background: url('../svg/close.svg') no-repeat center;
    background-size: 100%;
-       text-indent: -99999px;
+       width: 30px;
+  height: 30px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 3;
+   }
   &:focus {
     outline: 0;
   }
