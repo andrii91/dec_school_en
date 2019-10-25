@@ -732,9 +732,8 @@ line-height: 1.58;
   cursor: pointer;
   margin-bottom: 30px;
   transition: .3s;
-  &:hover {
-    transform: scale(1.1);
-  }
+  position: relative;
+
   img {
     float: left;
     width: 40px;
@@ -753,6 +752,9 @@ line-height: 1.58;
     .title {
       font-weight: 700;
       margin-bottom: 10px;
+      display: block;
+      transition: .3s;
+     
     }
     p {
       margin-bottom: 0;
@@ -766,6 +768,10 @@ line-height: 1.58;
     font-size: 19px;
     font-weight: 400;
     line-height: 1.58;
+      transition: .3s;
+      &:hover {
+        color: #e55a2f;
+      }
     }
     
   }
