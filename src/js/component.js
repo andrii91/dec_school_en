@@ -172,7 +172,7 @@ $(document).ready(function () {
     type: 'image' // this is default type
   });
 
-  $(".phone img").magnificPopup({
+  $(".phone-modal").magnificPopup({
     items: [
       {
         src: '#call'
