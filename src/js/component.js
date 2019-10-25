@@ -171,6 +171,18 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
+
+  $(".phone img").magnificPopup({
+    items: [
+      {
+        src: '#call'
+      }
+    ],
+    gallery: {
+      enabled: false
+    },
+   type: 'inline'// this is default type
+  });
   $('.popup-youtube').magnificPopup({
     disableOn: 700,
     type: 'iframe',
