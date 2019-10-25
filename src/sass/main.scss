@@ -576,6 +576,7 @@ screen and (max-height: 300px) {
     font-size: 22px;
    background: url('../svg/close.svg') no-repeat center;
    background-size: 100%;
+       text-indent: -99999px;
   &:focus {
     outline: 0;
   }
