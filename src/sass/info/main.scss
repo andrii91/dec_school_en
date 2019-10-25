@@ -733,6 +733,9 @@ line-height: 1.58;
   margin-bottom: 30px;
   transition: .3s;
   position: relative;
+  &:hover {
+    transform: scale(1.1);
+  }
 
   img {
     float: left;
