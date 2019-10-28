@@ -352,13 +352,16 @@ margin-bottom: 75px;
 .about-form {
   max-width: 977px;
   border-radius: 15px;
-  border: 2px solid #e2ebed;
+  border: 2px solid #e55a2f;
   background-color: #ffffff;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
   padding: 0 51px 87px;
+  .label {
+    margin-bottom: 20px;
+  }
   img {
     max-width: 269px;
     transform: translateY(-50%);
